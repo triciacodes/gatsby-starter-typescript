@@ -1,0 +1,18 @@
+{
+  "defaultSeverity": "error",
+  "extends": ["tslint:recommended", "tslint-react", "tslint-config-prettier"],
+  "rulesDirectory": "tslint-plugin-prettier",
+  "rules": {
+    "prettier": true,
+    "import-spacing": true,
+    "jsx-curly-brace-presence": true,
+    "jsx-boolean-value": ["never"],
+    "jsx-no-lambda": false,
+    "match-default-export-name": true,
+    "member-access": [true, "no-public"],
+    "no-console": [true, "log", "debug"],
+    "no-duplicate-imports": true,
+    "no-unused-expression": [true, "allow-tagged-template"],
+    "ordered-imports": [true, { "import-sources-order": "any" }]
+  }
+}
